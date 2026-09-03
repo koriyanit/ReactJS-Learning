@@ -1,0 +1,51 @@
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: bisque;
+  background-color: rgb(114, 105, 105);
+}
+
+
+.parent {
+  height: 100%;
+  width: 100%;
+  background-color: #6e5050;
+}
+
+.card {
+    height: 400px;
+    width: 100%;
+    background: #451e1e;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 350px;
+    margin: 20px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border: #451e1e;
+  border-radius: 5%;
+  object-fit: cover;
+}
+
+.card h1 {
+  padding-left: 50px;
+}
+
+.navbar {
+  width: 500px;
+  height: 40px;
+  padding: 2px;
+  background-color: #532727;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
