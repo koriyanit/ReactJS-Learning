@@ -10,7 +10,7 @@ const RightCardContent = (props) => {
                 </p>
                 <div className='flex justify-between'>
                     <button className={`${props.color} text-white font-medium px-7 py-3 rounded-full`}>{props.tag}</button>
-                    <button className={`${props.color} text-black font-medium px-6 py-3 rounded-full`}><i className='ri-arrow-right-line'></i></button>
+                    <button className={`${props.color} text-black font-medium px-6 py-3 rounded-full`}>{arrowIcon()}</button>
                 </div>
             </div>
         </div>
@@ -19,3 +19,4 @@ const RightCardContent = (props) => {
 }
 
 export default RightCardContent
+           
