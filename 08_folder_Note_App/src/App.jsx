@@ -10,7 +10,7 @@ const App = () => {
       <form onSubmit={(e) => {
         submitHandle(e)
       }}
-        className="flex gap-4  flex-col justify-between items-start p-10">
+        className="flex gap-4 lg: 1/2 flex-col items-start p-10">
        
           <input
             type="text"
@@ -22,13 +22,17 @@ const App = () => {
             className="px-5 w-full font-medium h-32 py-2 flex items-start flex-row border-2 rounded"
             placeholder="Write Details"
           />
-          <button className="bg-white w-full text-black px-5 py-2 rounded"></button>
+          <button className=" h-10 w-10 w-full text-white px-5 py-2 rounded">Add Note</button>
     
       </form>
 
-      <div >
-          <div className="h-32 w-32 rounded-2xl bg-white">
-
+      <div className="lg:w-1/2 lg:border-l-2 p-10">
+          <h1 className="text-xl font-bold"> Your Notes</h1>
+          <div className="flex flex-wrap gap-5 mt-5 overflow-auto">
+              <div className="h-52 w-52 rounded-2xl bg-white"></div>
+              <div className="h-52 w-52 rounded-2xl bg-white"></div>
+              <div className="h-52 w-52 rounded-2xl bg-white"></div>
+              <div className="h-52 w-52 rounded-2xl bg-white"></div>
           </div>
       </div>
     </div>
