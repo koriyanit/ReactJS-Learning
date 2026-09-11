@@ -7,7 +7,7 @@ const App = () => {
 
   const getData = async () => {
     const res = await axios.get(
-      `https://picsum.photos/v2/list?page=${index}&limit=20`
+      `https://picsum.photos/v2/list?page=${index}&limit=10`
     );
     if (!res.data) {
       return <h1>Some Internal Server Error Occurs</h1>;
